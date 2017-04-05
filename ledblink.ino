@@ -1,11 +1,11 @@
-int ledpin = 13;
+int ledpin = 13;                                     // initialize ledpin as led @ pin 13
 void setup(){
-pinMode(ledpin,OUTPUT);
+pinMode(ledpin,OUTPUT);                              //set ledpin as output
 }
 
-void loop(){
-digitalWrite(ledpin,HIGH);
-delay(1000);
-digitalWrite(ledpin,LOW);
-delay(1000);
+void loop(){                                         
+digitalWrite(ledpin,HIGH);                           //turn on led
+delay(1000);                                         // delay of 1 sec
+digitalWrite(ledpin,LOW);                            //turn off led
+delay(1000); 
 }
