@@ -15,17 +15,17 @@ void loop() {
   if(buttonstate==HIGH){
   digitalWrite(ledpin,HIGH);
   delay(200);
- digitalWrite(ledpin,LOW); 
- delay(500);
-digitalWrite(ledpin1,HIGH);
+  digitalWrite(ledpin,LOW); 
+  delay(500);
+  digitalWrite(ledpin1,HIGH);
   delay(800);
- digitalWrite(ledpin1,LOW); 
- delay(200); 
-}
+  digitalWrite(ledpin1,LOW); 
+  delay(200); 
+ }
 else{
-  digitalWrite(ledpin2,HIGH);
-  delay(1000);
-  digitalWrite(ledpin2,LOW);
+   digitalWrite(ledpin2,HIGH);
    delay(1000);
-  
-}}
+   digitalWrite(ledpin2,LOW);
+   delay(1000);
+  }
+}
