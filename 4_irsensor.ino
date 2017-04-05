@@ -1,12 +1,12 @@
-const int ProxSensor=12;
+const int irSensor=12;
 
 void setup() {                
   pinMode(13, OUTPUT);     
-  pinMode(ProxSensor,INPUT);
+  pinMode(irSensor,INPUT);
 }
 
 void loop() {
-  if(digitalRead(ProxSensor)==HIGH)      
+  if(digitalRead(irSensor)==HIGH)      
   {
     digitalWrite(13, HIGH);   // set the LED on
   }
